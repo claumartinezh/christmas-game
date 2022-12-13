@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  background-color: skyblue;
+  background-image: url('/images/christmas_background.jpg');
+  background-size: cover;
+}
+
+div.item {
+  width: min-content;
+  cursor: grab;
+  transition: opacity 500ms;
+}
+
+p.info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 2rem;
+  text-shadow: 0 0 8px lightgray;
+  font-weight: bold;
+  z-index: 1;
+  padding: 1rem;
+}
+
+span.cloud {
+  position: absolute;
+  z-index: 1;
+}

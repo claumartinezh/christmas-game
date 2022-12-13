@@ -13,7 +13,7 @@ body {
 main {
   min-height: 100vh;
   background-color: skyblue;
-  background-image: url('/images/christmas_background.jpg');
+  background-image: url('./images/christmas_background.jpg');
   background-size: cover;
 }
 

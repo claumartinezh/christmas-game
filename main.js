@@ -7,8 +7,8 @@ const EMOJI_OK = '✨';
 const EMOJI_KO = '💥';
 const EMOJI_CLOUD = '☁️';
 
-const SOUND_OK = new Audio('/sounds/ok.mp3');
-const SOUND_KO = new Audio('/sounds/ko.mp3');
+const SOUND_OK = new Audio('./sounds/ok.mp3');
+const SOUND_KO = new Audio('./sounds/ko.mp3');
 
 let points = 0;
 let gameOver = false;
